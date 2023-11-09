@@ -12,9 +12,10 @@ CatalogContent:
   - 'paths/computer-science'
 ---
 
-A **terminal** is a tool for interacting with a computer using text-based commands. In the past, terminals were hardware-based systems that printed out typed commands to a dedicated hardware, such as a screen or paper spool. Today, terminals have been widely replaced by **Terminal Emulators**, which are GUI apps that can come with additional functionality, such as tabbing interfaces and splitting views. The words are used interchangeably in today's development environments. Terminals can serve various functions, like running scripts or automating tasks with shell scripts.
+A **terminal** is a tool for interacting with a computer using text-based commands. Historically, terminals were hardware devices that output typed commands to a dedicated piece of hardware, such as a screen or paper spool. Modern usage has evolved to **Terminal Emulators**, which are graphical applications offering features like tabbed interfaces and split views. The terms "terminal" and "terminal emulator" are used interchangeably in current development environments. Terminals enable a variety of functions, from running scripts to automating tasks with shell scripts.
 
-The terminal interacts with a program often referred to as the _shell_, which is the command-line interface that exposes human input from the terminal to the operating system. Unlike the terminal, the shell is what actually processes the commands, whereas the terminal is just the text-based interface to interact with the shell. Some shells come as standalone terminals as well, such as Powershell or Command Prompt, however, some, such as the Unix BASH (Bourne Again SHell) require a separate terminal program.
+The terminal provides an interface to the _shell_, the command-line interface that conveys human input to the operating system. The shell processes commands and returns output, acting as the intermediary between the user and the system's services and files. While some command processors, like PowerShell and Command Prompt, incorporate their own user interface, others, such as the Unix BASH (Bourne Again SHell), are accessed through a terminal emulator.
+
 
 ## Examples of terminals
 
